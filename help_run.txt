@@ -1,0 +1,5 @@
+# command to start
+sudo rabbitmq-server
+sudo systemctl status rabbitmq-server
+celery -A myshop worker -l info
+runserver
